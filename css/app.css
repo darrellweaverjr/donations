@@ -279,7 +279,7 @@ body{
   font-size: 12px;
   text-align: center;
 }
-@media (max-width: 767px) {
+@media (max-width: 1200px) {
   .recent-donators{
     padding:20px;
     background-color:#fff;
