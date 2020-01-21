@@ -200,3 +200,149 @@ body{
 .dedication-sect{
   padding: 50px 0;
 }
+.btn-donation{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding: 30px 0;
+}
+.recent-donations-sect{
+  background-color:#eef1f5;
+  padding: 50px 0;
+}
+.recent-donation-title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 0 30px 0;
+}
+.recent-donators{
+  padding:20px;
+  background-color:#fff;
+  width: 60%;
+  margin: 5px auto;
+  overflow: auto;
+}
+.donators-initials{
+  border-radius: 60px;
+  box-shadow: 2px 2px 5px #999;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color:#60b760;
+  width:50px;
+  height:50px;
+  float: left;
+  padding: 13px;
+  margin: 0 10px 0 0;
+}
+.donator-name-date {
+  float: left;
+  font-family: 'Montserrat', sans-serif;
+  margin: 18px 0 0 10px;
+  line-height: 14px;
+}
+.donator-name{
+  font-size: 18px;
+  color:#000;
+}
+.recent-donation-date{
+  font-size: 12px;
+  color:#60b760;
+}
+.donation-amount{
+  float:right;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+.see-more-btn{
+  text-align: center;
+  padding: 10px 0;
+}
+.viewing-count{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.footer{
+  background-color:#383838;
+  text-transform: uppercase;
+  color:#fff;
+  padding: 60px 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .recent-donators{
+    padding:20px;
+    background-color:#fff;
+    width: 90%;
+    margin: 5px auto;
+    overflow: auto;
+  }
+  .donation-label-amount {
+    width: 29%;
+  }
+  .goal-raised {
+    width: 60%;
+    min-height: 130px;
+  }
+  .your-support-label {
+    background-color: #5fb660;
+    width: 35%;
+    font-size: 16px;
+    line-height: 18px;
+    min-height: 130px;
+  }
+  .raised-money-label-amount {
+    text-align: right;
+    font-size: 12px;
+  }
+  .raised-money-label {
+    text-align: left;
+    font-size: 12px;
+  }
+  .progress-amount {
+    font-size: 24px;
+  }
+}
+@media (max-width: 480px) {
+  .donation-radio {
+    padding: 5px;
+  }
+  .donation-label-amount {
+    width: 30%;
+    font-size: 12px;
+  }
+  .btn-donation {
+    font-size: 14px;
+  }
+  .donation-label {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    float: right;
+    width: 50%;
+  }
+  .your-support-label {
+    background-color: #5fb660;
+    width: 35%;
+    font-size: 10px;
+    line-height: 12px;
+    min-height: 130px;
+  }
+  #donation-info {
+    padding: 0 0 40px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .your-support-sect{
+    display: none;
+  }
+}

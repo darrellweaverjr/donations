@@ -14,10 +14,10 @@
         <div class="nav">
           <div class="container">
             <div class="row">
-              <div class="col-sm-6">
+              <div class="col-xs-4">
                 <img src="images/logo.jpg" alt="default logo">
               </div>
-              <div class="col-sm-6">
+              <div class="col-xs-8">
                 <div class="donation-amounts">
                   <div class="donations-sect">
                     <div class="donation-label-amount">$1234.56</div>
@@ -286,43 +286,43 @@
               <div class="row dedication-inputs">
                 <div class="col-md-3 dedication-input-col">
                   <label for="inputEmail3" class="control-label">Card Number</label>
-                  <input type="text" class="form-control" placeholder="0000-0000-0000-0000">
+                  <input type="text" class="form-control" placeholder="0000-0000-0000-0000" required>
                 </div>
                 <div class="col-md-2 dedication-input-col">
                   <label for="inputEmail3" class="control-label">Card Expiration</label>
-                  <input type="text" class="form-control" placeholder="MMYY">
+                  <input type="text" class="form-control" placeholder="MMYY" required>
                 </div>
                 <div class="col-md-2 dedication-input-col">
                   <label for="inputEmail3" class="control-label">CVV</label>
-                  <input type="text" class="form-control" placeholder="123">
+                  <input type="text" class="form-control" placeholder="123" required>
                 </div>
 
                 <div class="col-md-6 dedication-input-col">
                   <label for="inputEmail3" class="control-label">Billing Address 1</label>
-                  <input type="text" class="form-control" placeholder="Address 1">
+                  <input type="text" class="form-control" placeholder="Address 1" required>
                 </div>
                 <div class="col-md-6 dedication-input-col">
                   <label for="inputEmail3" class="control-label">Billing Address 2</label>
-                  <input type="text" class="form-control" placeholder="Address 2">
+                  <input type="text" class="form-control" placeholder="Address 2" required>
                 </div>
 
                 <div class="col-md-4 dedication-input-col">
                   <label for="inputEmail3" class="control-label">Billing City</label>
-                  <input type="text" class="form-control" placeholder="City">
+                  <input type="text" class="form-control" placeholder="City" required>
                 </div>
                 <div class="col-md-4 dedication-input-col">
                   <label for="inputEmail3" class="control-label">Billing State</label>
-                  <input type="text" class="form-control" placeholder="State">
+                  <input type="text" class="form-control" placeholder="State" required>
                 </div>
                 <div class="col-md-4 dedication-input-col">
                   <label for="inputEmail3" class="control-label">Billing Zip</label>
-                  <input type="text" class="form-control" placeholder="Zip">
+                  <input type="text" class="form-control" placeholder="Zip" required>
                 </div>
               </div>
 
               <div class="row">
                 <div class="col-md-12">
-                  <button class="btn btn-success btn-block btn-lg">donate now: $0.00 per month</button>
+                  <button class="btn btn-success btn-block btn-lg btn-donation" type="submit">donate now: $0.00 per month</button>
                 </div>
               </div>
 
@@ -331,6 +331,57 @@
 
         </div>
 
+        <div class="recent-donations-sect">
+          <div class="container">
+            <div class="recent-donation-title">Recent Donations</div>
+            <!--- Donations Loop --->
+            <div class="recent-donators">
+              <div class="donators-initials">JD</div>
+              <div class="donator-name-date">
+                <div class="donator-name">John Doe</div>
+                <div class="recent-donation-date">1 Month Ago</div>
+              </div>
+              <div class="donation-amount">$10</div>
+            </div>
+            <!--- Loop Item End --->
+            <!--- Donations Loop --->
+            <div class="recent-donators">
+              <div class="donators-initials">JD</div>
+              <div class="donator-name-date">
+                <div class="donator-name">John Doe</div>
+                <div class="recent-donation-date">1 Month Ago</div>
+              </div>
+              <div class="donation-amount">$10</div>
+            </div>
+            <!--- Loop Item End --->
+            <!--- Donations Loop --->
+            <div class="recent-donators">
+              <div class="donators-initials">JD</div>
+              <div class="donator-name-date">
+                <div class="donator-name">John Doe</div>
+                <div class="recent-donation-date">1 Month Ago</div>
+              </div>
+              <div class="donation-amount">$10</div>
+            </div>
+            <!--- Loop Item End --->
+            <!--- Donations Loop --->
+            <div class="recent-donators">
+              <div class="donators-initials">JD</div>
+              <div class="donator-name-date">
+                <div class="donator-name">John Doe</div>
+                <div class="recent-donation-date">1 Month Ago</div>
+              </div>
+              <div class="donation-amount">$10</div>
+            </div>
+            <!--- Loop Item End --->
+          </div>
+          <div class="see-more-btn"><a href="#">+ See More</a></div>
+          <div class="viewing-count">Viewing  5 of 123 donations</div>
+        </div>
+
+        <div class="footer">
+          copyright © 2020 company name
+        </div>
         <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
         <script src="js/bootstrap.js"></script>
     </body>
